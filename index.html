@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <h2> HTML Form</h2>
+        <form action = "https://formspree.io/f/xayvgbgl" method="POST">
+            <fieldset>
+                <legend>Login Information</legend>
+                First Name: <br>
+                <input type="text" id="fname" name="fname" placeholder="Input your first name" required>
+                <br><br>
+                Last Name: <br>
+                <input type="text" id="lname" name="lname" placeholder="Input your second name">
+                <br><br>
+                City: <br>
+                <input type="text" id="city" name="city" value="New Westminster">
+                <br><br>
+                <select name="selectitem" size='3' multiple>
+                    <option value="op1">Option I</option>
+                    <option value="op2">Option II</option>
+                    <option value="op3">Option III</option>
+                    <option value="op4">Option IV</option>
+                </select>
+                <br><br>
+                Age: <br>
+                <input type="number" value="20" min="18" max="60" name="age">
+                <br><br>
+                Are you registered?
+                <input type="checkbox" name="reg">
+                <br><br>
+                <textarea name="message" id="fmsg" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                <br><br>
+                <input type="submit" value="Login">
+                <input type="reset">
+            </fieldset>
+       
+            <fieldset>
+                <input type="date" name="date">
+                <br><br>
+                <fieldset class="optGroup">
+                    <label for="fYes">Yes</label>
+                    <input name="sFriend" id="fYes" value="yes" type="radio">
+                    <label for="fNo">No</label>
+                    <input name="sFriend" id="fNo" value="no" type="radio">
+                </fieldset>
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>

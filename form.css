@@ -1,0 +1,28 @@
+body{
+    background: #555;
+}
+
+.content
+{
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+#fname{
+    background-color: yellow
+}
+
+fieldset {
+    background-color: rgb(241, 232, 181);
+    border-radius: 20px;
+    min-width: 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+}
+
+input{
+    max-width: 150px;
+}
